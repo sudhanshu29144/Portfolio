@@ -1,0 +1,97 @@
+body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+      color: #232946;
+      line-height: 1.6;
+}
+
+header {
+      background: linear-gradient(120deg, #6a82fb 60%, #fc5c7d 100%);
+      color: white;
+      padding: 40px 20px 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 16px rgba(44, 62, 80, 0.08);
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+}
+
+header h1 {
+      margin: 0 0 10px 0;
+      font-size: 2.8rem;
+      letter-spacing: 2px;
+}
+
+nav {
+      margin-top: 15px;
+}
+
+nav a {
+      margin: 0 18px;
+      color: #f7f7ff;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1.1rem;
+      transition: color 0.2s;
+      border-bottom: 2px solid transparent;
+      padding-bottom: 2px;
+}
+
+nav a:hover {
+      color: #43e97b;
+      border-bottom: 2px solid #43e97b;
+}
+
+section {
+      padding: 50px 20px 40px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+}
+
+h2 {
+      color: #6a82fb;
+      margin-bottom: 25px;
+      font-size: 2rem;
+      border-left: 5px solid #fc5c7d;
+      padding-left: 12px;
+      letter-spacing: 1px;
+}
+
+/* Glassmorphism effect for cards */
+.project,
+.certification,
+.contacts,
+.educations,
+.skill {
+      background: rgba(255, 255, 255, 0.25);
+      padding: 24px 28px;
+      margin-bottom: 28px;
+      border-radius: 18px;
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+      backdrop-filter: blur(100px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.project:hover,
+.certification:hover,
+.contacts:hover,
+.educations:hover,
+.skill:hover {
+      transform: translateY(-4px) scale(1.03);
+      box-shadow: 0 12px 32px 0 rgba(31, 38, 135, 0.22);
+}
+
+footer {
+      text-align: center;
+      padding: 1px;
+      background: #6a82fb;
+      color: white;
+}
+
+.contact p {
+      margin: 0;
+      font-size: 1.1rem;
+      line-height: 120;
+}
